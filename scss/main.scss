@@ -275,7 +275,7 @@ body {
 }
 
 .hamburgerMenuActive {
-  background: #FFEC86;
+  background: lighten($yellow, 15%);
 }
 
 .content {
