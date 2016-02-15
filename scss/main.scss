@@ -89,29 +89,33 @@ body {
   font-size: 1.25rem;
   margin: 0;
   padding: 0;
+  text-align: right;
 
   @include media($large-tablet) {
     position: relative;
     top: 0;
     right: 0;
+    text-align: center;
   }
 
   @include media($small-tablet) {
     position: relative;
     top: 0;
     right: 0;
+    text-align: center;
   }
 
   @include media($large-mobile) {
     position: relative;
     top: 0;
     right: 0;
+    font-size: 1rem;
+    text-align: center;
   }
 }
 
 .headerCallUs {
   font-weight: lighter;
-
 }
 
 .headerInfoListItemLink {
@@ -963,4 +967,18 @@ a.rss-item {
 
 .rss-box a {
   color: $yellow;
+}
+
+#content {
+  a {
+    color: inherit;
+  }
+
+  .byline, .comments-link, .edit-link, .screen-reader-text {
+    display: none;
+  }
+
+  .entry-content {
+    margin-bottom: 100px;
+  }
 }
