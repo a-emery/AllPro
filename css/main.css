@@ -781,3 +781,6 @@ a.rss-item {
 
 #content .entry-content {
   margin-bottom: 100px; }
+
+#content .entry-title a {
+  font-size: 2rem; }

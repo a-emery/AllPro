@@ -3,7 +3,7 @@ $('.subHeaderListItem').click(function(){
 });
 
 $('document').ready(function(){
-  var images = ["./images/engine.jpeg","./images/semiTruckRepair.jpg","./images/americaTruck.png","./images/logo2.png"];
+  var images = ["./images/truck1.jpg","./images/truck2.jpg","./images/truck3.jpg"];
   var i = 0;
   var renew = setInterval(function(){
     if(images.length == i){
